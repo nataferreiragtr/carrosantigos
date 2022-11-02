@@ -1,0 +1,16 @@
+*{
+	margin: 5px;
+	padding: 0;
+	font-family: arial;
+}
+
+.menu li{
+	
+	list-style: none;
+	background-size: auto;
+	width: 250px;
+	margin-top: auto;
+	padding-inline-start: 1px;
+	padding-top: 10px;
+	display: inline;
+}
