@@ -4,6 +4,20 @@
 	font-family: arial;
 }
 
+.menu{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	width: 100%;
+	height: 49px;
+	float: center;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 50px;
+	margin-top: 1px;
+}
+
+
 .menu li{
 	
 	list-style: none;
@@ -13,4 +27,45 @@
 	padding-inline-start: 1px;
 	padding-top: 10px;
 	display: inline;
+	
+	
 }
+
+.menu li a{
+	color:#333;
+	text-decoration:none; 
+	padding:5px 10px; 
+	display:inline;
+	place-items:initial ;
+	float:left ;
+}
+
+.menu li a:hover{
+	background:rgb(212, 199, 199);
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+	
+}
+
+.footer {
+	
+	width: 100%;
+	height: 30px;
+	float: left;
+	color: black;
+	text-align: right;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 30px;
+	margin-top: 20px;
+	position: fixed;
+    bottom:0;
+    left:0;
+}
+
+.conteudo {
+	align-items: center;
+}
+
