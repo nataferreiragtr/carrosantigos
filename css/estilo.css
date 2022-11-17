@@ -4,6 +4,10 @@
 	font-family: arial;
 }
 
+.body {
+	background-image: url(http://www.serafinacorrea.rs.gov.br/wp-content/uploads/2019/07/IMG_7824-1920x1000.jpg);
+}
+
 .menu{
 	margin: 0;
 	padding: 0;
@@ -25,7 +29,7 @@
 	width: 250px;
 	margin-top: auto;
 	padding-inline-start: 1px;
-	padding-top: 10px;
+	padding-top: 5px;
 	display: inline;
 	
 	
@@ -66,6 +70,6 @@
 }
 
 .conteudo {
-	align-items: center;
+	align-items: right;
 }
 
